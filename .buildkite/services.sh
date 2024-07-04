@@ -6,21 +6,9 @@ declare -A gunjan=(
     ["region"]="us-west-2"
 )
 
-declare -A service2=(
-    ["image"]="service2-image:latest"
-    ["region"]="us-east-1"
-)
-
-declare -A service3=(
-    ["image"]="service3-image:latest"
-    ["region"]="eu-central-1"
-)
-
 # Declare a main associative array to map service names to nested arrays
 declare -A services_map=(
-    ["service1"]="service1"
-    ["service2"]="service2"
-    ["service3"]="service3"
+    ["gunjan"]="gunjan"
 )
 
 # Function to get service details from associative arrays
