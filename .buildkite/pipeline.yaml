@@ -1,5 +1,5 @@
 env:
-  SCRIPT: C:\\buildkite-agent\\builds\\RTC-DLLA48-1\\rtctek\\deployment-pipeline\\.buildkite\\testing.sh
+  SCRIPT: C:\\buildkite-agent\\builds\\RTC-DLLA48-1\\rtctek\\deployment-pipeline\\.buildkite\\pipeline.sh
 steps:    
     - label: "dev"
       command: bash $SCRIPT
