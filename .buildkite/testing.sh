@@ -6,7 +6,7 @@ get_service_details() {
     jq -r --arg service "$service_name" --arg detail "$detail" '.[$service][$detail]' $json_file
 }
 
-json_file="C:\\buildkite-agent\\builds\\RTC-DLLA48-1\\rtctek\\deployment-pipeline\\.buildkite\\services.json"
+json_file="C:\\buildkite-agent\\builds\\RTC-DLLA48-1\\rtctek\\deployment-pipeline\\.buildkite\\service.json"
 
 echo "jq version"
 jq --version
