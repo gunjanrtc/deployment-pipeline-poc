@@ -6,6 +6,8 @@ get_service_details() {
     jq -r --arg service "$service_name" --arg detail "$detail" '.[$service][$detail]' service.json
 }
 
+echo "jq version"
+jq --version
 
 image=$(get_service_details "gunjan" "image")
 region=$(get_service_details "nitin" "region")
