@@ -1,1 +1,5 @@
-steps:
+env:
+  SCRIPT: C:\\buildkite-agent\\builds\\RTC-DLLA48-1\\rtctek\\permission\\.buildkite\\testing.sh
+steps:    
+    - label: "dev"
+      command: bash $SCRIPT

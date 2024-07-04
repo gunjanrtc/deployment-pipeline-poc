@@ -1,0 +1,15 @@
+{
+    "gunjan": {
+      "image": "gunjan-image:latest",
+      "region": "us-west-2"
+    },
+    "ritik": {
+      "image": "ritik-image:latest",
+      "region": "us-east-1"
+    },
+    "nitin": {
+      "image": "nitin-image:latest",
+      "region": "eu-central-1"
+    }
+  }
+  
