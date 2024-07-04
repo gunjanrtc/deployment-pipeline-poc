@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Source the services.sh file
-source ./services.sh
+source C:\\buildkite-agent\\builds\\RTC-DLLA48-1\\rtctek\\deployment-pipeline\\.buildkite\\services.sh
 
 # Example usage
 service_name="gunjan"
