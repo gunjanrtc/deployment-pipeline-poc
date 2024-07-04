@@ -3,7 +3,7 @@
 get_service_details() {
     local service_name=$1
     local detail=$2
-    jq -r --arg service "$service_name" --arg detail "$detail" '.[$service][$detail]' services.json
+    jq -r --arg service "$service_name" --arg detail "$detail" '.[$service][$detail]' service.json
 }
 
 
