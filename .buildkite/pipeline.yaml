@@ -3,4 +3,3 @@ env:
 steps:    
     - label: "dev"
       command: bash $SCRIPT
-      
