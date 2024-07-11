@@ -18,3 +18,4 @@ get_service_details() {
     declare -n service="${services_map[$service_name]}"
     echo "${service[$detail]}"
 }
+
