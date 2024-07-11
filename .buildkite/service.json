@@ -6,10 +6,6 @@
     "ritik": {
       "image": "ritik-image:latest",
       "region": "us-east-1"
-    },
-    "nitin": {
-      "image": "nitin-image:latest",
-      "region": "eu-central-1"
     }
   }
   
