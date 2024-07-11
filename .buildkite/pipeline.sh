@@ -20,3 +20,4 @@ echo "Region: $region"
 # You can now use these variables in your deployment logic
 # For example, if you're using Helm to deploy:
 # helm upgrade --install my-app ./helm-chart --namespace $region --set image.repository=$image
+
