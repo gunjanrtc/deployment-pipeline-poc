@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Declare associative arrays
 declare -A gunjan=(
     ["image"]="gunjan:latest"
